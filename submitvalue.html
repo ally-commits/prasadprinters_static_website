@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Call Back</title>
+
+    <link href="./assets/css/page.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./custom.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
+        <div class="container">
+            <div class="navbar-left">
+                <button class="navbar-toggler" type="button">&#9776;</button>
+                <a class="navbar-brand" href="index.html">
+                    <h5 class="logo-dark" style="font-weight: 500;">Prasad Printers</h5>
+                    <h5 class="logo-light" style="font-weight: 500; color: white;">Prasad Printers</h5>
+                </a>
+            </div>
+            
+            <section class="navbar-mobile">
+                <span class="navbar-divider d-mobile-none"></span>
+                <ul class="nav nav-navbar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="arrow"></span></a>
+                        <nav class="nav"> 
+                            <a class="nav-link" href="index.html#aboutus">About Us</a>
+                            <a class="nav-link" href="index.html#gogreen">Go Green</a> 
+                        </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services <span class="arrow"></span></a>
+                        <nav class="nav">  
+                            <a class="nav-link color-black" href="services.html#section-mission">Quality Assurance</a> 
+                        </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Facilities <span class="arrow"></span></a>
+                        <nav class="nav">  
+                                <a class="nav-link" href="facilities.html#pre">Pre-press</a>
+                                <a class="nav-link" href="facilities.html#press">Press</a> 
+                                <a class="nav-link" href="facilities.html#post">Post-press</a>  
+                        </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio <span class="arrow"></span></a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us <span class="arrow"></span></a>
+                        <nav class="nav"> 
+                            <a class="nav-link" href="submitvalue.html">Request a Call Back</a>
+                            <a class="nav-link" href="surjob.html">Send us Job Details</a> 
+                        </nav>
+                    </li>            
+                </ul>
+            </section>
+
+            <a class="btn btn-success btn-rounded blink text-white" href="pd.html">Prasad Digitals</a>
+        </div>
+    </nav>
+    
+    <section class="section bg-img" style="background-image: url(./static/img/racb.jpg);" data-overlay="5">
+        <div class="container">
+          <div class="row">  
+            <div class="col-md-6 col-sm-10 mx-auto">
+              <form class="row input-border" action="" method="POST" data-form="mailer">
+                <div class="col-md-10 mx-4 p-6 rounded" style="background-color: rgba(255,255,255,1);" >
+                  <div class="alert alert-success d-on-success">We received your message and will contact you back soon.</div>
+                  <h1 class="lead text-center">Request a Call Back</h1>
+                  <div class="form-group">
+                    <input class="form-control color-black border-light" type="text" name="name" placeholder="Your Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control color-black border-light" type="email" name="email" placeholder="Your Email Address">
+                  </div>
+
+                  <div class="form-group">
+                        <input class="form-control color-black border-light" type="number" name="Phone Number" placeholder="Your Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                        <select name="" id="" class="form-control">
+                            <option value="">Prasad Printer's</option>
+                            <option value="">Prasad Digital</option>
+                        </select>
+                    </div>
+                  <div class="form-group">
+                    <textarea class="form-control color-black border-light" rows="4" placeholder="Your Message" name="message"></textarea>
+                  </div>
+                
+                  <button class="btn btn-lg btn-block btn-primary" type="submit">Submit</button>
+
+                </div>
+              </form>
+            </div> 
+        </div>
+    </section>
+
+    <script src="./assets/js/page.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
